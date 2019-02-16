@@ -45,5 +45,6 @@ function handleEvent(event) {
 // listen on port
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
+    // Print log
     console.log(`listening on ${port}`);
 });
